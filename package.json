@@ -1,0 +1,12 @@
+{
+  "name": "rill-plugins",
+  "private": true,
+  "type": "module",
+  "description": "Rill plugin marketplace for Claude Code (tests only; the plugin itself has no dependencies)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/",
+    "validate": "claude plugin validate . && claude plugin validate ./plugins/rill"
+  },
+  "license": "MIT"
+}

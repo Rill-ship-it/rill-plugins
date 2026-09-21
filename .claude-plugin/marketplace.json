@@ -1,0 +1,22 @@
+{
+  "name": "rill",
+  "description": "Rill plugins for Claude Code: Hyperliquid perp/spot analysis with the Rill perps framework, Daily catch progress synced to your Rill account.",
+  "owner": {
+    "name": "Rill",
+    "url": "https://rill.land"
+  },
+  "plugins": [
+    {
+      "name": "rill",
+      "source": "./plugins/rill",
+      "description": "Hyperliquid perp & spot analysis (scan / analysis / funding / book / spot) with Rill's perps framework and pitfalls. Read-only market data; sign in with /rill:login to count analyses toward your Daily catch.",
+      "version": "0.1.0",
+      "author": { "name": "Rill", "url": "https://rill.land" },
+      "homepage": "https://rill.land",
+      "repository": "https://github.com/Rill-ship-it/rill-plugins",
+      "license": "MIT",
+      "keywords": ["hyperliquid", "perps", "funding", "crypto", "trading", "rill"],
+      "category": "finance"
+    }
+  ]
+}

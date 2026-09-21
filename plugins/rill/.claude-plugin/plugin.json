@@ -1,0 +1,14 @@
+{
+  "name": "rill",
+  "displayName": "Rill",
+  "version": "0.1.0",
+  "description": "Hyperliquid perp & spot analysis (scan / analysis / funding / book / spot) with Rill's perps framework and pitfalls. Read-only market data; sign in with /rill:login to count analyses toward your Daily catch.",
+  "author": {
+    "name": "Rill",
+    "url": "https://rill.land"
+  },
+  "homepage": "https://rill.land",
+  "repository": "https://github.com/Rill-ship-it/rill-plugins",
+  "license": "MIT",
+  "keywords": ["hyperliquid", "perps", "perpetuals", "funding", "open-interest", "crypto", "trading", "rill"]
+}
